@@ -1,0 +1,49 @@
+{
+  "auth": {
+    "hackrpiappc5b2ca17": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "geo": {
+    "mapHack": {
+      "accessType": "AuthorizedAndGuestUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "hackrpiappc5b2ca17"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorEsriStreets",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    }
+  }
+}

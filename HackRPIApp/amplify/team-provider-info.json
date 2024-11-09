@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hackrpiapp-dev-a2427-authRole",
+      "UnauthRoleArn": "arn:aws:iam::945638769810:role/amplify-hackrpiapp-dev-a2427-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::945638769810:role/amplify-hackrpiapp-dev-a2427-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hackrpiapp-dev-a2427-deployment",
+      "UnauthRoleName": "amplify-hackrpiapp-dev-a2427-unauthRole",
+      "StackName": "amplify-hackrpiapp-dev-a2427",
+      "StackId": "arn:aws:cloudformation:us-east-1:945638769810:stack/amplify-hackrpiapp-dev-a2427/808fad50-9edf-11ef-9da3-12fcc8d3e0bf",
+      "AmplifyAppId": "dzvodyh77pe3t"
+    },
+    "categories": {
+      "auth": {
+        "hackrpiappc5b2ca17": {}
+      }
+    }
+  }
+}
